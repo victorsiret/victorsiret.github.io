@@ -9,8 +9,8 @@ function openNav() {
         sideBarOut = 0;
         }
     else {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("mySidebar").style.width = "300px";
+        document.getElementById("main").style.marginLeft = "300px";
         sideBarOut = 1;
         }
     }
