@@ -16,10 +16,10 @@
 
 
 
-/* ??? On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* ??? On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
-}
+}*/
 
 /* ---- SIDEBAR STYLING ---- */
 
@@ -129,4 +129,9 @@
 #main p {
   text-align: justify;
   color: rgb(100, 100, 100);
+}
+
+/* EDUCATION / PROFESSIONAL */
+.eplinks {
+  margin-right: 40px;
 }
