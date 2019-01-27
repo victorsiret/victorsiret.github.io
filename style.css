@@ -87,10 +87,10 @@
   padding: 0px 30px;
 }
 .sidebar .links2 {
-  padding: 0px 20px;
+  padding: 0px 55px;
 }
 .sidebar .links3 {
-  padding: 0px 38px;
+  padding: 0px 70px;
 }
 
 /* Contact */
@@ -120,12 +120,17 @@
   padding: 20px;
   margin-left: 300px;
 }
+/* Disc bullet points */
+ul {
+  list-style-type: disc;
+}
 
 /* SUBPARTS */
+/* Headers */
 #main h2 {
   font-weight: 700;
 }
-
+/* Paragraphs */
 #main p {
   text-align: justify;
   color: rgb(100, 100, 100);
