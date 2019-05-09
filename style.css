@@ -148,5 +148,26 @@ ul {
                   drop-shadow(-1px -1px 0 rgb(200, 200, 200));
   filter: drop-shadow(1px 1px 0 rgb(200, 200, 200)) 
           drop-shadow(-1px -1px 0 rgb(200, 200, 200));
+}
+
+.logosPhone {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+/* ______________________________________________________________________________________ */
+/* __________________________________PHONE_SCALING_______________________________________ */
+/* ______________________________________________________________________________________ */
+
+@media screen and (max-width: 800px) {
+  
+.logos {
+  display: none;
+}
+
+.logosPhone {
+  display: inline;
+}
 
 }
