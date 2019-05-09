@@ -166,7 +166,8 @@ ul {
   #main h2 {
     font-size: 45px;
   }
-  
+
+}
 
 /* ______________________________________________________________________________________ */
 /* __________________________________PHONE_SCALING_______________________________________ */
@@ -175,8 +176,16 @@ ul {
 @media screen and (max-width: 500px) {
 
 /* Headers */
-#main h2 {
+.sidebar h2 {
   font-size: 40px;
+}
+
+.sidebar h3 {
+  font-size: 30px;
+}
+
+#main h2 {
+  font-size: 35px;
 }
 
 /* Display Small Logos [not in use], Hide Large */
@@ -186,6 +195,11 @@ ul {
 
 .logosPhone {
   display: inline;
+}
+
+/* Hide Links */
+.eplinks {
+  display: none;
 }
 
 }
