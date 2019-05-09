@@ -3,7 +3,7 @@ let sideBarOut = 0
 
 // Detect Screen Size
 let device
-if (window.screen.width < 500) {device = 1;}
+if (window.screen.width < 1000) {device = 1;}
 else {device = 0;}
 
 if (device === 0) {
