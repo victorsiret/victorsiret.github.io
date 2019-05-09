@@ -5,7 +5,7 @@
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: -100px;
-  left: 0;
+  left: -300px;
   background-color: #010101; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 160px; /* Place content 60px from the top */
@@ -108,7 +108,7 @@
 }
 
 /*Languages*/
-.sidebar .flag-icon {
+.flag-icon {
   height: 18px;
   width: 18px;
 }
@@ -119,7 +119,7 @@
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
-  margin-left: 300px;
+  margin-left: 0px;
 }
 /* Disc bullet points */
 ul {
@@ -140,4 +140,13 @@ ul {
 /* EDUCATION / PROFESSIONAL */
 .eplinks {
   margin-right: 40px;
+}
+
+.logos {
+  max-width: 120px;
+  -webkit-filter: drop-shadow(1px 1px 0 rgb(200, 200, 200))
+                  drop-shadow(-1px -1px 0 rgb(200, 200, 200));
+  filter: drop-shadow(1px 1px 0 rgb(200, 200, 200)) 
+          drop-shadow(-1px -1px 0 rgb(200, 200, 200));
+
 }
