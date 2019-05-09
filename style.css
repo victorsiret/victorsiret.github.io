@@ -88,7 +88,7 @@
   padding: 0px 30px;
 }
 .sidebar .links2 {
-  padding: 0px 55px;
+  padding: 0px 65px;
 }
 .sidebar .links3 {
   padding: 0px 70px;
@@ -146,13 +146,18 @@ ul {
   max-width: 120px;
   -webkit-filter: drop-shadow(1px 1px 0 rgb(200, 200, 200))
                   drop-shadow(-1px -1px 0 rgb(200, 200, 200));
-  filter: drop-shadow(1px 1px 0 rgb(200, 200, 200)) 
-          drop-shadow(-1px -1px 0 rgb(200, 200, 200));
+  filter: drop-shadow(1px 1px 0 rgb(233, 233, 233)) 
+          drop-shadow(-1px -1px 0 rgb(233, 233, 233));
 }
 
 .logosPhone {
   width: 30px;
   height: 30px;
+  display: none;
+}
+
+/* Phone Hide */
+.phoneShow {
   display: none;
 }
 
@@ -190,6 +195,7 @@ ul {
 
 /* Display Small Logos [not in use], Hide Large */
 .logos {
+  max-width: 80px;
   display: none;
 }
 
@@ -200,6 +206,16 @@ ul {
 /* Hide Links */
 .eplinks {
   display: none;
+}
+
+/* Phone Hide */
+.phoneHide {
+  display: none;
+}
+
+/* Phone Show */
+.phoneShow {
+  display: inline;
 }
 
 }
