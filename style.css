@@ -12,15 +12,6 @@
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
-
-
-
-
-/* ??? On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-}*/
-
 /* ---- SIDEBAR STYLING ---- */
 
 
@@ -43,6 +34,7 @@
   padding: 10px 15px;
   border: none;
   position: fixed;
+  z-index: 1;
 }
 
 .openbtn:hover {
@@ -132,6 +124,10 @@ ul {
   font-weight: 700;
 }
 /* Paragraphs */
+#main .overview {
+  margin-top: 90px;
+}
+
 #main p {
   text-align: justify;
   color: rgb(100, 100, 100);
@@ -144,10 +140,10 @@ ul {
 
 .logos {
   max-width: 120px;
-  -webkit-filter: drop-shadow(1px 1px 0 rgb(200, 200, 200))
-                  drop-shadow(-1px -1px 0 rgb(200, 200, 200));
-  filter: drop-shadow(1px 1px 0 rgb(233, 233, 233)) 
-          drop-shadow(-1px -1px 0 rgb(233, 233, 233));
+  -webkit-filter: drop-shadow(1px 1px 0 rgb(151, 151, 151))
+                  drop-shadow(-1px -1px 0 rgb(151, 151, 151));
+  filter: drop-shadow(1px 1px 0 rgb(151, 151, 151)) 
+          drop-shadow(-1px -1px 0 rgb(151, 151, 151));
 }
 
 .logosPhone {
@@ -191,6 +187,10 @@ ul {
 
 #main h2 {
   font-size: 35px;
+}
+
+.sidebar .links a {
+  font-size: 20px;
 }
 
 /* Display Small Logos [not in use], Hide Large */

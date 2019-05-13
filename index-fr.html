@@ -3,7 +3,7 @@
 
 <head>
     <!-- Title -->
-    <title>Victor Siret Resume</title>
+    <title>Victor Siret CV</title>
 
     <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -27,7 +27,7 @@
   <h2><img src="./images/profile.png" class="profile">&nbsp;Victor Siret</h2>
   
   <!-- Contact Information -->
-  <h3>&nbsp;Contact</h3>
+  <h3>&nbsp;Contacter</h3>
   <div class="links">
     <a href="tel:+33602128094" class="contact"><i class="fas fa-phone"></i>&nbsp;&nbsp;+33 6 02 12 80 94</a>
     <a href="mailto:victorsiret@gmail.com" class="contact"><i class="fas fa-at"></i>&nbsp;&nbsp;victorsiret@gmail.com</a>
@@ -35,7 +35,7 @@
   </div>
 
   <!-- Social Media -->
-  <h3>&nbsp;Social</h3>
+  <h3>&nbsp;R&eacute;seaux</h3>
   <div class="links2">
     <a href="https://www.linkedin.com/in/victor-siret-51579758/" class="social"><i class="fab fa-linkedin fa-lg"></i></a>
     <a href="https://www.instagram.com/victorsiret/" class="social"><i class="fab fa-instagram fa-lg"></i></a>
@@ -43,7 +43,7 @@
   </div>
 
   <!-- Page Language -->
-  <h3>&nbsp;Language</h3>
+  <h3>&nbsp;Langues</h3>
   <div class="links3">
     <a href="./index-fr.html"><img class="flag-icon" src="./icons/flags/france.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="./index-es.html"><img class="flag-icon" src="./icons/flags/spain.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -55,56 +55,44 @@
 <div id="main">
   <button class="openbtn" onclick="openNav()">&#9776;</button>
     <div class="overview" uk-scrollspy="cls: uk-animation-slide-right">
-        <h2>Overview</h2>
-        <p>A few words about this resume: It is made with the philosophy of fulfilling the same criteria as a regular resume on the surface, while also offering more
-            detail to any item which grabs your attention. It offers details and visuals for almost every aspect of the CV and gives my point of view on topics to give
-            you a better understanding of who I am.
-        </p>
-        <p>I am an internationally oriented candidate, who has worked and studied in various countries and languages. I am currently on track to graduate in September 2019
-             after completing my final internship in Germany at best it. I am interested in furthering my knowledge and skill in data analysis, technology and project 
-             management.
+        <h2>Pr&eacute;sentation</h2>
+        <p>Je suis un candidat avec un profil international, ayant travaill&eacute; et &eacute;tudi&eacute; dans plusieurs pays et langues diff&eacute;rentes. 
+            Je suis actuellement en voie d'obtenir mon diplôme en septembre 2019 après avoir termin&eacute; mon stage de fin d'&eacute;tudes en Allemagne, &abreve; best it. 
+            Je suis souhaite approfondir mes connaissances et mes comp&eacute;tences en analyse de donn&eacute;es, en technologie et en gestion de projet.
         </p>
     </div>
   <br><br>
 
   <!-- Education -->
   <div uk-scrollspy="cls: uk-animation-slide-right">
-    <h2>Education</h2>
+    <h2>&Eacute;ducation</h2>
     <ul uk-accordion="">
       <li class="">
           <!-- ESSEC -->
-          <a class="uk-accordion-title" href="#"><span class="phoneHide">Master (MSc) in Management - ESSEC Business School (September 2016 - Expected September 2019)</span>
-            <span class="phoneShow">MSc in Management<br><b>ESSEC</b><br>2019</span></a>
+          <a class="uk-accordion-title" href="#"><span class="phoneHide">Master (MSc) en Management - ESSEC Business School (Septembre 2016 - Attendu septembre 2019)</span>
+            <span class="phoneShow">MSc en Management<br><b>ESSEC</b><br>2019</span></a>
             <div class="uk-accordion-content">
                 <div class="uk-grid">
                     <div class="uk-width-5-6@l uk-width-3-4@s">
-                        <p>ESSEC Business School is an international higher education institution founded in 1907 with campuses in France, Singapore and Morocco. Courses are 
-                            taught in French and English.
+                        <p>L'ESSEC Business School est un établissement d'enseignement supérieur international fondé en 1907 avec des campus en France, à Singapour et au 
+                            Maroc. Les cours sont donnés en français et en anglais.
                         </p>
-                        <p>ESSEC's innovative approach to teaching business with an eclectic array of courses allowed me to broaden my scope of knowledge and consider the
-                            vast subject of business in a new light as well as acquire technical knowledge in programming<span class="phoneHide"> (see course list)</span>.</p>
                     </div>
                     <div class="uk-width-1-6@l uk-width-1-4@s">
                         <img class="uk-vertical-align-middle logos" src="./icons/logos/ESSEC.png">
                     </div>
                 </div>
-                <br>
-                <a class="eplinks" href="http://www.essec.edu/en/pages/about-essec/2/">About</a>
-                <a class="eplinks" href="http://www.essec.edu/en/pages/about-essec/essec-business-school/rankings/">Rankings</a>
-                <a class="eplinks" href="#" uk-toggle="target: #course-essec">Courses</a>
+                <a class="eplinks" href="http://www.essec.edu/en/pages/about-essec/2/">&Abreve; propos</a>
+                <a class="eplinks" href="http://www.essec.edu/en/pages/about-essec/essec-business-school/rankings/">Classements</a>
+                <a class="eplinks" href="#" uk-toggle="target: #course-essec">Cours</a>
                 <a class="eplinks" onclick="UIkit.notification({message: 'Degree expected September 2019 but all course requirements finished (see: Transcript).'})" href="#">
-                    Degree
+                    Dipl&ocirc;me
                 </a>
-                <a class="eplinks" href="./downloads/ESSEC Transcript.pdf">Transcript</a>
+                <a class="eplinks" href="./downloads/ESSEC Transcript.pdf">Notes</a>
                 <ul id="course-essec" hidden>
-                    <li>Philosophy and Commerce</li>
-                    <li>Web Development</li>
-                    <li>VBA Programming</li>
-                    <li>Statistical Inference</li>
-                    <li>Product Design</li>
-                    <li>Consumer Behaviour</li>
-                    <li>Anthropology of Luxury Brands</li>
+                    <li>T</li>
                 </ul>
+                <br><br>
             </div>
       </li>
       <li>
@@ -116,28 +104,17 @@
                 <div class="uk-width-5-6@l uk-width-3-4@s">
                     <p>Concordia University is an anglophone public comprehensive university. It was founded in 1974 as a merger between Loyola College and Sir George Williams 
                         University and is located in Montreal, Canada. Courses are taught primarily in English.</p>
-                    <p>Concordia's BComm program has a strong core which covers all business topics. The international business specialisation is axed on taking these concepts
-                        and scaling them to the complexities of operation in multiple countries.
-                    </p>
                 </div>
                 <div class="uk-width-1-6@l uk-width-1-4@s">
                     <img class="uk-vertical-align-middle logos" src="./icons/logos/JMSB.png">
                 </div>
             </div>
-            <br>
             <a class="eplinks" href="http://www.concordia.ca/jmsb/about.html">About</a>
             <a class="eplinks" href="http://www.concordia.ca/jmsb/about/rankings.html">Rankings</a>
-            <a class="eplinks" href="#" uk-toggle="target: #course-jmsb">Courses</a>
+            <a class="eplinks" href="#">Courses</a>
             <a class="eplinks" href="./downloads/Concordia Degree.pdf">Degree</a>
             <a class="eplinks" href="./downloads/Concordia Transcript.pdf">Transcript</a>
-            <ul id="course-jmsb" hidden>
-                <li>Strategy and Competition</li>
-                <li>International Financial Management</li>
-                <li>Cross-Cultural Communication and Management</li>
-                <li>International Business Law</li>
-                <li>International Economic Policy and Institutions</li>
-                <li>Management of Multinational Corporations</li>
-            </ul>
+            <br><br>
           </div>
       </li>
       <li class="phoneHide">
@@ -150,11 +127,6 @@
                     Students at the Lyc&eacute;e International are required to be fluent in French and one other language taught in one of the school's fourteen national 
                     sections.
                 </p>
-                <p>
-                    With excellent academics and an unparalleled diversity of students, this was truly a fantastic school to attend. It greatly contributed to my desire to
-                    learn languages, study and work abroad.
-                </p>
-                <br>
                 <a class="eplinks" href="http://www.americansection.org/Who-we-are">About</a>
                 <a class="eplinks" href="https://classement-lycees.etudiant.lefigaro.fr/academie-versailles/yvelines/st-germain-en-laye/lycee-international/">Rankings (Le Figaro)</a>
           </div>
@@ -167,8 +139,8 @@
   <div uk-scrollspy="cls: uk-animation-slide-right">
     <h2>Experience</h2>
     <ul uk-accordion="">
-        <!-- best it -->
         <li>
+            <!-- best it -->
             <a class="uk-accordion-title" href="#"><span class="phoneHide">Strategy Intern - best it (March 2019 - September 2019)</span>
             <span class="phoneShow">Strategy Intern<br><b>best it</b><br>03/2019-09/2019</span></a>
             <div class="uk-accordion-content">
@@ -273,9 +245,8 @@
                     <img class="logos" src="./icons/logos/Guerlain.png">
                 </div>
             </div>
-            <br><br>
         </li>
-        <!-- Eclectic -->
+        <!-- LVMH -->
         <li class="phoneHide">
             <a class="uk-accordion-title" href="#">Eclectic Work Experience</a>
             <div class="uk-accordion-content">
